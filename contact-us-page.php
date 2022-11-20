@@ -14,15 +14,66 @@
   <link rel="stylesheet" href="css/contact-us-page.css">
 
 </head>
+<style>
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+  .icon{
+    width: 50px;
+    height: auto;
+  }
+  ul {
+    list-style: none;
+  }
+  li button{
+    width: 80px;
+    height: 40px;
+    background-color: #1E407A;
+    border-radius: 15px;
+    color: white;
+  }
+
+  .img-button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+  }
+  .submenu {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+  }
+  .img-button:focus + .submenu, .submenu:hover {
+    padding:0;
+    width: 120px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    background-color: #51B2A2;
+    border-radius: 15px;
+  }
+</style>
 
 <body>
-<div class="image-fader">
-  <img src="https://dummyimage.com/300x200/f00/fff" />
-  <img src="https://dummyimage.com/300x200/0f0/fff" />
-  <img src="https://dummyimage.com/300x200/00f/fff" />
-  <img src="https://dummyimage.com/300x200/f0f/fff" />
-</div>
 
-
+<ul class="menu">
+  <li><button class="img-button"><img class="icon" src="img/icon%20menu.png" alt=""></button>
+    <ul class="submenu">
+      <li><form>
+          <button type = "submit" formaction="product-page.php" class = "mob_but">Products</button>
+        </form></li>
+      <li><form>
+          <button type = "submit" formaction="return-form-page.php" class = "mob_but">Return form</button>
+        </form></li>
+    </ul>
+  </li>
+</ul>
 
 </body>

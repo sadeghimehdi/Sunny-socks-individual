@@ -16,11 +16,24 @@
 </head>
 
 <body>
-
+      <!--    header-->
 <header>
 
-  <img src="img/sunny_logos_white.png" alt="">
+  <img class="logo" src="img/sunny_logos_white.png" alt="">
+      <!--  Mobile version-->
+  <button class="menu-icon">
+    <img src="img/icon%20menu.png" alt="">
+  </button>
 
+  <div class="sub-menu">
+    <button>
+      <a href="product-page.php">Products</a>
+    </button>
+    <button>
+      <a href="return-form-page.php">Return form</a>
+    </button>
+  </div>
+      <!--  Desktop version-->
   <ul>
     <li>
       <a href="">Products</a>
@@ -32,29 +45,31 @@
   </ul>
 
 </header>
-
+      <!--    Main-->
 <main>
 
   <div class="float-container">
 
     <div class="transfer-container">
+
       <img class="transfer-1" src="img/transfer-img1.svg" alt="">
       <img class="transfer-2" src="img/transfer-img2.svg" alt="">
       <img class="transfer-3" src="img/transfer-img3.svg" alt="">
+
     </div>
 
-    <img src="img/cntr2.svg" alt="">
-    <img src="img/cntr3.svg" alt="">
-    <img src="img/cntr4.svg" alt="">
+    <img class="img-container" src="img/cntr2.svg" alt="">
+    <img class="img-container" src="img/cntr3.svg" alt="">
+    <img class="img-container" src="img/cntr4.svg" alt="">
 
   </div>
 
 </main>
-
+      <!--Footer-->
 <footer>
 
+  <h2>Contact us</h2>
   <ul>
-    <h2>Contact us</h2>
     <li>
       E-mail: place.holder@gmail.com
     </li>
@@ -67,7 +82,9 @@
 
   <h4>Most Colourful Socks website</h4>
   <h3>Subscribe to our Newsletter</h3>
+
   <form action="">
+
     <label>
       <input placeholder="Enter your email" class="email-input" type="email">
       <input class="submit-input" type="submit">
@@ -76,8 +93,6 @@
   </form>
 
 </footer>
-
-
 
 </body>
 
