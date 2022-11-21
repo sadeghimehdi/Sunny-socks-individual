@@ -24,6 +24,21 @@
     <img class="logo" src="img/sunny_logos_white.png" alt="">
   </a>
 
+  <!--  Mobile version-->
+
+  <button class="menu-icon">
+    <img src="img/icon%20menu.png" alt="">
+  </button>
+
+  <div class="sub-menu">
+    <button>
+      <a href="product-page.php">Products</a>
+    </button>
+    <button>
+      <a href="return-form-page.php">Return form</a>
+    </button>
+  </div>
+
   <!--  Desktop version-->
   <ul>
     <li>
