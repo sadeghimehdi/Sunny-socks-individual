@@ -35,7 +35,7 @@
       <a href="product-page.php">Products</a>
     </button>
     <button>
-      <a href="return-form-page.php">Return form</a>
+      <a href="homepage.php">Home</a>
     </button>
   </div>
 
@@ -46,7 +46,7 @@
     </li>
 
     <li>
-      <a href="contact-us-page.php">Contact us</a>
+      <a href="homepage.php">Home</a>
     </li>
   </ul>
 
