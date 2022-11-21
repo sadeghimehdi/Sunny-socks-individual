@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-image: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/*header*/
+
+header{
+  grid-column: 1/13;
+  width: 100%;
+  height: 76px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+.logo{
+  grid-column: 3/6;
+  width: 187px;
+  height: 65px;
+}
+/*Mobile version*/
+
+.menu-icon{
+  display: none;
+}
+.sub-menu{
+  display: none;
+}
+/*Desktop version*/
+
+header ul{
+  grid-column: 7/11;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  text-decoration: none;
+  font-family: "Nexa Bold", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+header ul li :hover{
+  filter: drop-shadow(9px 16px 13px rgba(0, 0, 0, 0.6));
+}
+      /*Main*/
+
+main{
+  width: 100%;
+  height: 100%;
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 80px auto auto 40px;
+  row-gap: 40px;
+  align-items: end;
+}
+
+    /*<!--Type of socks button-->*/
+
+.stripes-button{
+  grid-column: 3/5;
+  grid-row: 2/3;
+  border: none;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+}
+.uni-button{
+  grid-column: 3/5;
+  grid-row: 3/4;
+  border: none;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+}
+
+  /*<!--  The invisible containers -->*/
+
+.invisible-container-blue{
+display: none;
+}
+.stripes-button:focus + .invisible-container-blue {
+  width: 500px;
+  height: 540px;
+  grid-column: 7/11;
+  grid-row: 2/4;
+  align-self: center;
+  background: rgba(30, 64, 122, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#leg-img-blue{
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 30px;
+  grid-row: 2/3;
+}
+.inside-container-blue{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#socks-img-blue{
+  width: 100px;
+  height: 200px;
+  margin-top: 30px;
+  grid-row: 3/4;
+}
+.forward-button-blue{
+  width: 100px;
+  height: 100px;
+  border: none;
+  background: rgba(30, 64, 122, 0);
+}
+.forward-button-blue img{
+  width: 100px;
+  height: 100px;
+}
+.invisible-container-pink{
+  display: none;
+}
+.forward-button-blue:focus + .invisible-container-pink {
+  width: 500px;
+  height: 540px;
+  grid-column: 7/11;
+  grid-row: 2/4;
+  align-self: center;
+  background: rgba(233, 144, 185, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+}
+
+#leg-img-pink{
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 30px;
+  grid-row: 2/3;
+}
+.inside-container-pink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#socks-img-pink{
+  width: 100px;
+  height: 200px;
+  margin-top: 30px;
+  grid-row: 3/4;
+}
+
+.forward-button-pink{
+  width: 100px;
+  height: 100px;
+  grid-row: 3/4;
+  border: none;
+  background: rgba(30, 64, 122, 0);
+}
+.forward-button-pink img{
+  width: 100px;
+  height: 100px;
+  grid-row: 3/4;
+}
+
+
+
+
+
+
+.order-button{
+  grid-column: 7/11;
+  grid-row: 4/5;
+  width: 100%;
+  height: 80px;
+}
+.order-button button{
+  width: 100%;
+  height: 80px;
+  background: rgba(241, 91, 57, 0.8);
+  border: none;
+  color: #ffffff;
+  font-family: "Nexa Bold", serif;
+  font-size: 35px;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+}
+.order-button :hover{
+  background-color: #44160B;
+}
+

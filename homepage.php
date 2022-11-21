@@ -20,7 +20,9 @@
 <header>
 
   <img class="logo" src="img/sunny_logos_white.png" alt="">
+
       <!--  Mobile version-->
+
   <button class="menu-icon">
     <img src="img/icon%20menu.png" alt="">
   </button>
@@ -36,11 +38,11 @@
       <!--  Desktop version-->
   <ul>
     <li>
-      <a href="">Products</a>
+      <a href="product-page.php">Products</a>
     </li>
 
     <li>
-      <a href="">Return form</a>
+      <a href="return-form-page.php">Return form</a>
     </li>
   </ul>
 
