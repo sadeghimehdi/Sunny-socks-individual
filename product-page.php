@@ -33,7 +33,7 @@
 
   <div class="sub-menu">
     <button>
-      <a href="product-page.php">Products</a>
+      <a href="contact-us-page.php">Contact us</a>
     </button>
     <button>
       <a href="return-form-page.php">Return form</a>
@@ -177,29 +177,67 @@
 
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a class="order-button" href="order-page.php">
     <button>
       Order now
     </button>
   </a>
 
+<!--  Mobile version-->
+  <div class="mobile-stripes">
+    <img src="img/catalogus_sokken_stripes_blue.png" alt="">
+<!--    <img src="img/catalogus_sokken_stripes_pink.png" alt="">-->
+<!--    <img src="img/catalogus_sokken_stripes_yellow.png" alt="">-->
+<!--    <img src="img/catalogus_sokken_stripes_green.png" alt="">-->
+<!--    <img src="img/catalogus_sokken_stripes_red.png" alt="">-->
+  </div>
+
+  <div class="mobile-uni">
+    <img src="img/catalogus_sokken_uni_pink.png" alt="">
+<!--    <img src="img/catalogus_sokken_uni_red.png" alt="">-->
+<!--    <img src="img/catalogus_sokken_uni_blue.png" alt="">-->
+<!--    <img src="img/catalogus_sokken_uni_green.png" alt="">-->
+<!--    <img src="img/catalogus_sokken_uni_yellow.png" alt="">-->
+  </div>
+
+  <div class="mobile-contact">
+    <h3>You could mail us using this addres:</h3>
+    <h2>place.holder@gmail.com</h2>
+    <h3>You can also call us at any day except national holidays from 12:00 to 18:00 CET. </h3>
+    <h2>0123 567 89 01 </h2>
+    <h3> We will answer you as soon as we can.</h3>
+  </div>
 
 </main>
+
+    <!--Footer-->
+
+    <footer>
+
+      <h2>Contact us</h2>
+      <ul>
+        <li>
+          E-mail: place.holder@gmail.com
+        </li>
+        <li>
+          Phone:  0123 567 89 01
+        </li>
+      </ul>
+
+      <img src="img/social.svg" alt="">
+
+      <h4>Most Colourful Socks website</h4>
+      <h3>Subscribe to our Newsletter</h3>
+
+      <form action="">
+
+        <label>
+          <input placeholder="Enter your email" class="email-input" type="email">
+          <input class="submit-input" type="submit">
+        </label>
+
+      </form>
+
+    </footer>
 
 </body>
