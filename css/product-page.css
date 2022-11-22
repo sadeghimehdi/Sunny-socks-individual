@@ -394,6 +394,9 @@ align-items: center;
 .mobile-uni{
   display: none;
 }
+.mobile-contact{
+  display: none;
+}
 
 /*Button*/
 
@@ -693,4 +696,152 @@ footer h3{
     margin-left: 0;
     margin-bottom: 5px;
   }
+
+  /*mobile animations*/
+
+  /*Animations for strips*/
+
+  @keyframes transfer-strips-1 {
+    from {opacity: 100}
+    to {opacity: 0}
+  }
+  .transfer-strips-1{
+    position: absolute;
+    animation-name: transfer-strips-1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes transfer-strips-2 {
+    from {opacity: 0}
+    to {opacity: 100%}
+  }
+  .transfer-strips-2{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    animation-name: transfer-strips-2;
+    animation-duration: 5s;
+    animation-delay: 7s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  @keyframes transfer-strips-3{
+    from {opacity: 0}
+    to{opacity: 100}
+  }
+  .transfer-strips-3{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation-name: transfer-strips-3;
+    animation-duration: 5s;
+    animation-delay: 17s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  @keyframes transfer-strips-4 {
+    from {opacity: 0}
+    to{opacity: 100}
+  }
+  .transfer-strips-4{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation-name: transfer-strips-4;
+    animation-duration: 5s;
+    animation-delay: 22s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  @keyframes transfer-strips-5{
+    0% {opacity: 0}
+    0.5% {opacity: 100}
+    100% {opacity: 100}
+  }
+  .transfer-strips-5{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation-name: transfer-strips-5;
+    animation-duration: 500s;
+    animation-delay: 27s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+
+  /*Animation for uni*/
+
+  @keyframes transfer-uni-1 {
+    from {opacity: 100}
+    to {opacity: 0}
+  }
+  .transfer-uni-1{
+    position: absolute;
+    animation-name: transfer-strips-1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes transfer-uni-2 {
+    from {opacity: 0}
+    to {opacity: 100%}
+  }
+  .transfer-uni-2{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    animation-name: transfer-uni-2;
+    animation-duration: 5s;
+    animation-delay: 7s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  @keyframes transfer-uni-3{
+    from {opacity: 0}
+    to{opacity: 100}
+  }
+  .transfer-uni-3{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation-name: transfer-uni-3;
+    animation-duration: 5s;
+    animation-delay: 17s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  @keyframes transfer-uni-4 {
+    from {opacity: 0}
+    to{opacity: 100}
+  }
+  .transfer-uni-4{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation-name: transfer-uni-4;
+    animation-duration: 5s;
+    animation-delay: 22s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  @keyframes transfer-uni-5{
+    0% {opacity: 0}
+    0.5% {opacity: 100}
+    100% {opacity: 100}
+  }
+  .transfer-uni-5{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation-name: transfer-uni-5;
+    animation-duration: 500s;
+    animation-delay: 27s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+
+  /*Animations end here*/
 }

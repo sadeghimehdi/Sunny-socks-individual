@@ -185,19 +185,19 @@
 
 <!--  Mobile version-->
   <div class="mobile-stripes">
-    <img src="img/catalogus_sokken_stripes_blue.png" alt="">
-<!--    <img src="img/catalogus_sokken_stripes_pink.png" alt="">-->
-<!--    <img src="img/catalogus_sokken_stripes_yellow.png" alt="">-->
-<!--    <img src="img/catalogus_sokken_stripes_green.png" alt="">-->
-<!--    <img src="img/catalogus_sokken_stripes_red.png" alt="">-->
+    <img class="transfer-strips-1" src="img/catalogus_sokken_stripes_blue.png" alt="">
+    <img class="transfer-strips-2" src="img/catalogus_sokken_stripes_pink.png" alt="">
+    <img class="transfer-strips-3" src="img/catalogus_sokken_stripes_yellow.png" alt="">
+    <img class="transfer-strips-4" src="img/catalogus_sokken_stripes_green.png" alt="">
+    <img class="transfer-strips-5" src="img/catalogus_sokken_stripes_red.png" alt="">
   </div>
 
   <div class="mobile-uni">
-    <img src="img/catalogus_sokken_uni_pink.png" alt="">
-<!--    <img src="img/catalogus_sokken_uni_red.png" alt="">-->
-<!--    <img src="img/catalogus_sokken_uni_blue.png" alt="">-->
-<!--    <img src="img/catalogus_sokken_uni_green.png" alt="">-->
-<!--    <img src="img/catalogus_sokken_uni_yellow.png" alt="">-->
+    <img class="transfer-uni-1" src="img/catalogus_sokken_uni_pink.png" alt="">
+    <img class="transfer-uni-2" src="img/catalogus_sokken_uni_red.png" alt="">
+    <img class="transfer-uni-3" src="img/catalogus_sokken_uni_blue.png" alt="">
+    <img class="transfer-uni-4" src="img/catalogus_sokken_uni_green.png" alt="">
+    <img class="transfer-uni-5" src="img/catalogus_sokken_uni_yellow.png" alt="">
   </div>
 
   <div class="mobile-contact">
