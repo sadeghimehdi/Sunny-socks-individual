@@ -11,69 +11,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Title</title>
-  <link rel="stylesheet" href="css/contact-us-page.css">
+  <link rel="stylesheet" href="css/contact-us.css">
 
 </head>
-<style>
-
-  .menu{
-    display: flex;
-    justify-content: center;
-    margin-right: 50px;
-  }
-
-  .icon{
-    width: 50px;
-    height: auto;
-  }
-  ul {
-    list-style: none;
-  }
-  li button{
-    width: 80px;
-    height: 40px;
-    background-color: #1E407A;
-    border-radius: 15px;
-    color: white;
-  }
-
-  .img-button {
-    border: 0;
-    background: none;
-    cursor: pointer;
-  }
-  .submenu {
-    display: none;
-    position: absolute;
-    margin-top: 20px;
-  }
-  .img-button:focus + .submenu, .submenu:hover {
-    padding:0;
-    width: 120px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 30px;
-    background-color: #51B2A2;
-    border-radius: 15px;
-  }
-</style>
 
 <body>
 
-<ul class="menu">
-  <li><button class="img-button"><img class="icon" src="img/icon%20menu.png" alt=""></button>
-    <ul class="submenu">
-      <li><form>
-          <button type = "submit" formaction="product-page.php" class = "mob_but">Products</button>
-        </form></li>
-      <li><form>
-          <button type = "submit" formaction="return-form-page.php" class = "mob_but">Return form</button>
-        </form></li>
-    </ul>
-  </li>
-</ul>
+<!--    header-->
+
+<header>
+  <a class="logo" href="homepage.php">
+    <img class="logo" src="img/sunny_logos_white.png" alt="">
+  </a>
+
+  <!--  Mobile version-->
+
+  <button class="menu-icon">
+    <img src="img/icon%20menu.png" alt="">
+  </button>
+
+  <div class="sub-menu">
+    <button>
+      <a href="product-page.php">Products</a>
+    </button>
+    <button>
+      <a href="homepage.php">Home</a>
+    </button>
+  </div>
+
+  <!--  Desktop version-->
+  <ul>
+    <li>
+      <a href="product-page.php">Products</a>
+    </li>
+
+    <li>
+      <a href="return-form-page.php">Return form</a>
+    </li>
+  </ul>
+
+</header>
+
+<!--Main-->
+
+<main>
+
+  <div class="container">
+
+    <img class="logo-blue" src="img/sunny_logos_slogan_blue.png" alt="">
+
+    <div>
+      <h3>You could mail us using this addres:</h3>
+      <h2> place.holder@gmail.com</h2>
+      <h3> We will answer you as soon as we can.</h3>
+      <h3>You can also call us at any day except national </h3>
+       <h3> holidays from </h3>
+      <h3>12:00 to 18:00 CET. </h3>
+      <h2>0123 567 89 01 </h2>
+    </div>
+
+  </div>
+
+  <!--Contact us button-->
+
+  <a class="contact-us" href="contact-us-page.php">
+    <button>
+      Send E-mail
+    </button>
+  </a>
+
+</main>
 
 </body>
+</html>

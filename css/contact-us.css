@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-image: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/*header*/
+
+header{
+  grid-column: 1/13;
+  width: 100%;
+  height: 76px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+.logo{
+  grid-column: 3/6;
+  width: 187px;
+  height: 65px;
+}
+
+/*Mobile version*/
+
+.menu-icon{
+  display: none;
+}
+.sub-menu{
+  display: none;
+  z-index: 2;
+}
+
+/*Desktop version*/
+
+header ul{
+  grid-column: 7/11;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  text-decoration: none;
+  font-family: "Nexa Bold", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+header ul li :hover{
+  filter: drop-shadow(9px 16px 13px rgba(0, 0, 0, 0.6));
+}
+
+/*Main*/
+
+main{
+  width: 100%;
+  height: 100%;
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px auto 80px;
+}
+.container{
+  width: 100%;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  grid-column: 3/11;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.logo-blue{
+  margin-left: 29%;
+  width: 400px;
+  height: auto;
+}
+.container div{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+.container div h3{
+  margin-top: 20px;
+  font-family: "Nexa Bold", serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+.container div h2{
+  margin-top: 20px;
+  font-family: "Nexa Bold", serif;
+  font-size: 30px;
+  color: #FECD3E;
+}
+
+/*Contact us button*/
+
+.contact-us{
+  width: 100%;
+  height: 80px;
+  grid-row: 3/4;
+  grid-column: 5/9;
+  margin-top: 10px;
+}
+.contact-us button{
+  width: 100%;
+  height: 80px;
+  background: rgba(241, 91, 57, 0.8);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  border: none;
+  color: #ffffff;
+  font-family: "Nexa Bold", serif;
+  font-size: 35px;
+}
+.contact-us :hover{
+  background-color: #44160B;
+}
+
+
+/*Mobile version*/
+
+@media screen and (max-width: 576px) {
+  body {
+    grid-template-columns: repeat(12, 1fr);
+    background-image: url("../img/bg1-mobile.svg");
+    background-size: 100%;
+  }
+
+  header {
+    grid-column: 1/13;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 100px;
+    z-index: 3;
+  }
+
+  .logo {
+    grid-column: 2/4;
+    width: 140px;
+    height: 49px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  /*Menu*/
+  .menu-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    grid-column: 11/13;
+    justify-self: center;
+    list-style: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .menu-icon img {
+    width: 40px;
+    height: 40px;
+    grid-column: 11/13;
+    justify-self: center;
+  }
+
+  .sub-menu {
+    display: none;
+  }
+
+  .sub-menu button {
+    width: 100%;
+    height: 60px;
+    background: rgba(217, 217, 217, 0.3);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(6px);
+  }
+
+  .sub-menu button a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Nexa Bold", serif;
+    font-size: large;
+  }
+
+  .menu-icon:focus + .sub-menu, .sub-menu:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    grid-column: 7/13;
+    width: 100%;
+    top: 0;
+    height: 327px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    border-radius: 10px 0 0 10px;
+  }
+
+  /*Menu ends here*/
+  .logo-blue {
+    width: 190px;
+    height: auto;
+  }
+
+  .container div {
+    margin-left: 10%;
+  }
+
+  .container div h3 {
+    font-family: "Nexa Light", serif;
+    font-size: 20px;
+    color: #ffffff;
+
+  }
+
+  /*button*/
+  .contact-us {
+    width: 100%;
+    height: 80px;
+    grid-row: 3/4;
+    grid-column: 3/11;
+    margin-top: 10px;
+  }
+}
