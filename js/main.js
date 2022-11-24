@@ -48,3 +48,58 @@ function redbuttonback() {
 		document.getElementById("greencontainer").style.display="flex";
 		document.getElementById("redcontainer").style.display="none";
 }
+
+//Uni products
+
+
+function unibutton() {
+	document.getElementById("bluecontainer-uni").style.display="flex"
+	document.getElementById("redcontainer").style.display="none";
+}
+
+//Blue
+
+function bluebuttonuni() {
+	        document.getElementById("pinkcontainer-uni").style.display="flex";
+			document.getElementById("bluecontainer-uni").style.display="none";
+}
+
+//pink
+
+function pinkbuttonbackuni() {
+		document.getElementById("bluecontainer-uni").style.display="flex";
+		document.getElementById("pinkcontainer-uni").style.display="none";
+}
+function pinkbuttonuni() {
+	document.getElementById("yellowcontainer-uni").style.display="flex";
+	document.getElementById("pinkcontainer-uni").style.display="none";
+}
+
+//Yellow
+
+function yellowbuttonbackuni() {
+		document.getElementById("pinkcontainer-uni").style.display="flex";
+		document.getElementById("yellowcontainer-uni").style.display="none";
+}
+function yellowbuttonuni() {
+	document.getElementById("greencontainer-uni").style.display="flex";
+	document.getElementById("yellowcontainer-uni").style.display="none";
+}
+
+//Green
+
+function greenbuttonbackuni() {
+		document.getElementById("yellowcontainer-uni").style.display="flex";
+		document.getElementById("greencontainer-uni").style.display="none";
+}
+function greenbuttonuni() {
+	document.getElementById("redcontainer-uni").style.display="flex";
+	document.getElementById("greencontainer-uni").style.display="none";
+}
+
+//Red
+
+function redbuttonbackuni() {
+		document.getElementById("greencontainer-uni").style.display="flex";
+		document.getElementById("redcontainer-uni").style.display="none";
+}

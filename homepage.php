@@ -5,13 +5,14 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="description" content="">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
+  <meta name="description" content="Sunny socks, The best international website with colorful types of socks socks">
+  <meta name="keywords" content="SOCKS, COLORFUL, INTERNATIONAL, USA, CHINA, SOUTH AFRICA">
+  <meta name="author" content="Mehdi Sadeghi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Title</title>
+  <title>Sunny socks</title>
   <link rel="stylesheet" href="css/home-page.css">
+  <link rel="icon" href="img/sunny_logos_white.png">
 
 </head>
 

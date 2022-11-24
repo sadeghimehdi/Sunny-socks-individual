@@ -5,13 +5,14 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="description" content="">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
+  <meta name="description" content="Sunny socks, The best international website with colorful types of socks socks">
+  <meta name="keywords" content="SOCKS, COLORFUL, INTERNATIONAL, USA, CHINA, SOUTH AFRICA">
+  <meta name="author" content="Mehdi Sadeghi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Title</title>
+  <title>Sunny socks</title>
   <link rel="stylesheet" href="css/contact-us.css">
+  <link rel="icon" href="img/sunny_logos_white.png">
 
 </head>
 
@@ -35,7 +36,7 @@
       <a href="product-page.php">Products</a>
     </button>
     <button>
-      <a href="homepage.php">Home</a>
+      <a href="return-form-page.php">Return form</a>
     </button>
   </div>
 
@@ -64,9 +65,7 @@
       <h3>You could mail us using this addres:</h3>
       <h2> place.holder@gmail.com</h2>
       <h3> We will answer you as soon as we can.</h3>
-      <h3>You can also call us at any day except national </h3>
-       <h3> holidays from </h3>
-      <h3>12:00 to 18:00 CET. </h3>
+      <h3>You can also call us at any day except<br>national holidays from 12:00 to 18:00 CET.</h3>
       <h2>0123 567 89 01 </h2>
     </div>
 
@@ -82,5 +81,36 @@
 
 </main>
 
+<!--Footer-->
+
+<footer class="footer-mobile">
+
+  <h2>Contact us</h2>
+  <ul>
+    <li>
+      E-mail: place.holder@gmail.com
+    </li>
+    <li>
+      Phone:  0123 567 89 01
+    </li>
+  </ul>
+
+  <img src="img/social.svg" alt="">
+
+  <h4>Most Colourful Socks website</h4>
+  <h3>Subscribe to our Newsletter</h3>
+
+  <form action="">
+
+    <label>
+      <input placeholder="Enter your email" class="email-input" type="email">
+      <input class="submit-input" type="submit">
+    </label>
+
+  </form>
+
+</footer>
+
 </body>
+
 </html>

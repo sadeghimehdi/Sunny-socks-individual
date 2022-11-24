@@ -5,13 +5,14 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="description" content="">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
+  <meta name="description" content="Sunny socks, The best international website with colorful types of socks socks">
+  <meta name="keywords" content="SOCKS, COLORFUL, INTERNATIONAL, USA, CHINA, SOUTH AFRICA">
+  <meta name="author" content="Mehdi Sadeghi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Title</title>
+  <title>Sunny socks</title>
   <link rel="stylesheet" href="css/product-page.css">
+  <link rel="icon" href="img/sunny_logos_white.png">
 
 </head>
 
@@ -57,7 +58,7 @@
     <!--Type of socks button-->
 
 
-  <button class="uni-button">
+  <button class="uni-button" onclick="unibutton()" id="unibutton">
     <img src="img/uni-button.svg" alt="">
   </button>
 
@@ -177,6 +178,118 @@
 
   </div>
 
+<!--  UNI Invisible-->
+
+  <!--  Blue uni-->
+
+  <div class="invisible-container-blue-uni" id="bluecontainer-uni">
+
+    <img id="leg-img-blue-uni" src="img/Sunny_socks_uni_blue.jpg" alt="">
+
+    <div class="inside-container-blue-uni">
+
+      <button class="back-button-blue-uni">
+        <img src="img/icon%20forward.png" alt="">
+      </button>
+
+      <img id="socks-img-blue-uni" src="img/catalogus_sokken_uni_blue.png" alt="">
+
+      <button class="forward-button-blue-uni" onclick="bluebuttonuni()" id="blueButton-uni">
+        <img src="img/icon%20forward.png" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+  <!--  Pink uni-->
+
+  <div class="invisible-container-pink-uni" id="pinkcontainer-uni">
+
+    <img id="leg-img-pink-uni"  src="img/Sunny_socks_uni_pink.jpg" alt="">
+
+    <div class="inside-container-pink-uni">
+
+      <button class="back-button-pink-uni" onclick="pinkbuttonbackuni()" id="pinkbuttonback-uni">
+        <img src="img/icon%20back.png" alt="">
+      </button>
+
+      <img id="socks-img-pink-uni" src="img/catalogus_sokken_uni_pink.png" alt="">
+
+      <button class="forward-button-pink-uni" onclick="pinkbuttonuni()" id="pinkbutton-uni">
+        <img src="img/icon%20forward.png" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+  <!--  Yellow uni-->
+
+  <div class="invisible-container-yellow-uni" id="yellowcontainer-uni">
+
+    <img id="leg-img-yellow-uni"  src="img/Sunny_socks_uni_yellow.jpg" alt="">
+
+    <div class="inside-container-yellow-uni">
+
+      <button class="back-button-yellow-uni" onclick="yellowbuttonbackuni()" id="yellowbuttonback-uni">
+        <img src="img/icon%20back.png" alt="">
+      </button>
+
+      <img id="socks-img-yellow-uni" src="img/catalogus_sokken_uni_yellow.png" alt="">
+
+      <button class="forward-button-yellow-uni" onclick="yellowbuttonuni()" id="yellowbutton-uni">
+        <img src="img/icon%20forward.png" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+  <!--  Green uni-->
+
+  <div class="invisible-container-green-uni" id="greencontainer-uni">
+
+    <img id="leg-img-green-uni"  src="img/Sunny_socks_uni_green.jpg" alt="">
+
+    <div class="inside-container-green-uni">
+
+      <button class="back-button-green-uni" onclick="greenbuttonbackuni()" id="greenbuttonback-uni">
+        <img src="img/icon%20back.png" alt="">
+      </button>
+
+      <img id="socks-img-green-uni" src="img/catalogus_sokken_uni_green.png" alt="">
+
+      <button class="forward-button-green-uni" onclick="greenbuttonuni()" id="greenbutton-uni">
+        <img src="img/icon%20forward.png" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+  <!--  Red uni-->
+
+  <div class="invisible-container-red-uni" id="redcontainer-uni">
+
+    <img id="leg-img-red-uni"  src="img/Sunny_socks_uni_red.jpg" alt="">
+
+    <div class="inside-container-red-uni">
+
+      <button class="back-button-red-uni" onclick="redbuttonbackuni()" id="redbuttonback-uni">
+        <img src="img/icon%20back.png" alt="">
+      </button>
+
+      <img id="socks-img-red-uni" src="img/catalogus_sokken_uni_red.png" alt="">
+
+      <button class="forward-button-red-uni" onclick="redbuttonuni()" id="redbutton-uni">
+        <img src="img/icon%20forward.png" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
   <a class="order-button" href="order-page.php">
     <button>
       Order now
@@ -184,6 +297,7 @@
   </a>
 
 <!--  Mobile version-->
+
   <div class="mobile-stripes">
     <img class="transfer-strips-1" src="img/catalogus_sokken_stripes_blue.png" alt="">
     <img class="transfer-strips-2" src="img/catalogus_sokken_stripes_pink.png" alt="">
